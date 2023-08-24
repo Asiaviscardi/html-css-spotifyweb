@@ -21,5 +21,14 @@
 .lg, .ug{
     width: 20%;
     background-color: pink;
-    
+}
+
+nav{
+    justify-content: end;
+}
+
+nav div{
+    width: 80%;
+    background-color: lightcoral;
+    border: 1px solid black;
 }
