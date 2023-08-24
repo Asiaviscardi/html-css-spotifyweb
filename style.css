@@ -4,3 +4,22 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+.flex{
+    display: flex;
+}
+
+/*header*/
+
+.h-container{
+    width: 100%;
+    background-color: blueviolet;
+    border: 1px solid black;
+    justify-content: space-between;
+}
+
+.lg, .ug{
+    width: 20%;
+    background-color: pink;
+    
+}
