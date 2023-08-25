@@ -52,6 +52,8 @@
     position: relative;
 }
 
+/*aside*/
+
 .a-container{
     width: 20%;
     height: 100vh;
@@ -60,6 +62,31 @@
     position: absolute;
     top: 0;
 }
+
+.a-container li img{
+    width: 7%;
+    margin: 3% 2% 0% 2%;
+}
+
+.a-container li{
+    color: #989898;
+}
+
+.a-container li:hover{
+    border-left: 4px solid #adff2f;
+    cursor: pointer;
+    color: #f7f7f7;
+}
+
+
+
+
+
+
+
+
+
+
 
 .n-container{
     width: 80%;
