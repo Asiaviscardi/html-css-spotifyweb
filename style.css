@@ -78,6 +78,29 @@
     color: #f7f7f7;
 }
 
+.a-container h5{
+    margin: 4% 2%;
+}
+
+.a-container button{
+    background-color: #a3a3a3;
+    border: none;
+    cursor: pointer;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 0% 4%;
+    position: relative;
+}
+
+.a-container span{
+    position: absolute;
+    top: 21%;
+    padding-left: 3%;
+    color: #717171;
+}
+
+
+
 
 
 
