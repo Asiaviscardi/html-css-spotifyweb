@@ -63,16 +63,16 @@
     top: 0;
 }
 
-.a-container li img{
+.a-container .icon-list li img{
     width: 7%;
     margin: 3% 2% 0% 2%;
 }
 
-.a-container li{
+.a-container .icon-list li{
     color: #989898;
 }
 
-.a-container li:hover{
+.a-container .icon-list li:hover{
     border-left: 4px solid #adff2f;
     cursor: pointer;
     color: #f7f7f7;
@@ -90,12 +90,18 @@
     font-weight: bold;
     padding: 0% 4%;
     position: relative;
+    margin-bottom: 2%;
 }
 
 .a-container span{
     position: absolute;
     top: 21%;
     padding-left: 3%;
+    color: #717171;
+}
+
+.play-list li{
+    padding: 3% 0%;
     color: #717171;
 }
 
