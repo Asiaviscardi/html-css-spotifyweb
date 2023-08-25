@@ -13,14 +13,33 @@
 
 .h-container{
     width: 100%;
-    background-color: blueviolet;
-    border: 1px solid black;
+    background-color: #080b12;
     justify-content: space-between;
 }
 
-.lg, .ug{
+.lg{
     width: 20%;
-    background-color: pink;
+    background-color: black;
+}
+
+.ug{
+    width: 20%;
+    justify-content: end;
+}
+
+.lg img{
+    width: 50%;
+    margin: 3% 10%;
+}
+
+.ug button{
+    color: white;
+    background-color: #080b12;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 0% 10%;
+    margin: 4% 2%;
+    cursor: pointer;
 }
 
 
