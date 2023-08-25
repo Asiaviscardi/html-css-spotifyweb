@@ -93,7 +93,7 @@
     margin-bottom: 2%;
 }
 
-.a-container span{
+.crea{
     position: absolute;
     top: 21%;
     padding-left: 3%;
@@ -103,6 +103,23 @@
 .play-list li{
     padding: 3% 0%;
     color: #717171;
+}
+
+.user{
+    color: #717171;
+    position: absolute;
+    bottom: 0%;
+}
+
+.user img{
+    width: 5%; 
+    margin: 0% 5%;
+}
+
+.user hr{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3%;
 }
 
 
