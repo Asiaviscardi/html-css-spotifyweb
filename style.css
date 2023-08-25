@@ -69,3 +69,12 @@ nav, section{
     background-color: pink;
     border: 1px solid black;
 }
+
+/*footer*/
+
+.ascolto{
+    width: 100%;
+    background-color: blueviolet;
+    border: 1px solid black;
+    justify-content: space-between;
+}
