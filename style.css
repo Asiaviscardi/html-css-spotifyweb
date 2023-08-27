@@ -202,7 +202,7 @@ section h2{
     background-color: #141922;
 }
 
-.consigliata p{
+.consigliata p, .artisti p{
     color: #717171;
     margin-left: 19px;
     padding-bottom: 3%;
@@ -212,17 +212,13 @@ section h2{
     padding-bottom: 1%;
 }
 
-
-
-
-
-
-
-
 .artisti{
     width: 80%;
-    background-color: pink;
-    border: 1px solid black;
+    background-color: #141922;
+}
+
+.artisti img{
+    border-radius: 50%;
 }
 
 /*footer*/
