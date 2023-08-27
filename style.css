@@ -52,6 +52,10 @@
     position: relative;
 }
 
+nav, section{
+    justify-content: end;
+}
+
 /*aside*/
 
 .a-container{
@@ -150,35 +154,64 @@
     list-style: none;
     margin-right: 2%;
     cursor: pointer; 
+    border-bottom: 4px solid transparent;
 }
 
 .n-container li:hover{
     border-bottom: 4px solid #adff2f;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-nav, section{
-    justify-content: end;
-}
+/*section*/
 
 .recente{
     width: 80%;
-    background-color: pink;
-    border: 1px solid black;
+    background-color: #141922;
 }
+
+section h2{
+    color: white;
+    padding-bottom: 2%;
+    margin-left: 19px;
+}
+
+.card-container{
+    width: 15%;
+    display: inline-block;
+    margin-bottom: 3%;
+}
+
+.card-container img{
+    width: 85%;
+    margin-left: 19px;
+}
+
+.titolo, .sottotitolo{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.titolo{
+    color: white;
+}
+
+.sottotitolo{
+    color: #717171;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .consigliata{
     width: 80%;
