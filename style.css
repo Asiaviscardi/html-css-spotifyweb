@@ -132,24 +132,43 @@
     font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+/*nav*/
 
 .n-container{
     width: 80%;
-    background-color:aquamarine;
-    position: absolute;
-    top: 0;
+    background-color:#141922;
+    padding: 2% 0%;
+    color: #7d7f84;
 }
+
+.n-container ul{
+    justify-content: center;
+
+}
+
+.n-container li{
+    list-style: none;
+    margin-right: 2%;
+    cursor: pointer; 
+}
+
+.n-container li:hover{
+    border-bottom: 4px solid #adff2f;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 nav, section{
     justify-content: end;
