@@ -13,10 +13,6 @@
     position: fixed;
 }
 
-
-
-
-
 /*header*/
 
 header{
@@ -29,7 +25,7 @@ header{
 .h-container{
     width: 100%;
     background-color: #080b12;
-    justify-content: space-between;
+    justify-content: end;
 }
 
 .lg{
@@ -39,7 +35,6 @@ header{
 
 .ug{
     width: 15%;
-    justify-content: end;
 }
 
 .lg img{
@@ -52,8 +47,8 @@ header{
     background-color: #080b12;
     border: 1px solid white;
     border-radius: 25px;
-    padding: 0% 10%;
-    margin: 4% 2%;
+    padding: 4% 10%;
+    margin: 6% 8%;
     cursor: pointer;
 }
 
@@ -161,6 +156,7 @@ nav, section{
     background-color:#141922;
     padding: 1% 0%;
     color: #7d7f84;
+    padding-top: 80px;
 }
 
 .n-container ul{
