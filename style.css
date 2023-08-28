@@ -9,7 +9,22 @@
     display: flex;
 }
 
+.fixed{
+    position: fixed;
+}
+
+
+
+
+
 /*header*/
+
+header{
+    top: 0;
+    right: 0;
+    width: calc(100% - 225px);
+    z-index: 10;
+}
 
 .h-container{
     width: 100%;
@@ -18,12 +33,12 @@
 }
 
 .lg{
-    width: 20%;
+    width: 15%;
     background-color: black;
 }
 
 .ug{
-    width: 20%;
+    width: 15%;
     justify-content: end;
 }
 
@@ -45,9 +60,13 @@
 
 /*main*/
 
+main{
+    height: calc(100vh - 90px);
+    overflow: auto;
+}
+
 .m-container{
     width: 100%;
-    height: 100vh;
     position: relative;
 }
 
@@ -58,8 +77,8 @@ nav, section{
 /*aside*/
 
 .a-container{
-    width: 20%;
-    height: 100vh;
+    width: 225px;
+    height: 100%;
     color: white;
     background-color: black;
     position: absolute;
@@ -138,9 +157,9 @@ nav, section{
 /*nav*/
 
 .n-container{
-    width: 80%;
+    width: calc(100% - 225px);
     background-color:#141922;
-    padding: 2% 0%;
+    padding: 1% 0%;
     color: #7d7f84;
 }
 
@@ -163,13 +182,13 @@ nav, section{
 /*section*/
 
 .recente{
-    width: 80%;
+    width: calc(100% - 225px);
     background-color: #141922;
 }
 
 section h2{
     color: white;
-    padding-bottom: 2%;
+    padding-bottom: 1%;
     margin-left: 19px;
 }
 
@@ -198,7 +217,7 @@ section h2{
 }
 
 .consigliata{
-    width: 80%;
+    width: calc(100% - 225px);
     background-color: #141922;
 }
 
@@ -213,7 +232,7 @@ section h2{
 }
 
 .artisti{
-    width: 80%;
+    width: calc(100% - 225px);
     background-color: #141922;
 }
 
@@ -223,9 +242,13 @@ section h2{
 
 /*footer*/
 
+footer{
+    height: 90px;
+}
+
 .ascolto{
     width: 100%;
     background-color: blueviolet;
     border: 1px solid black;
-    justify-content: space-between;
+    justify-content: space-between;  
 }
